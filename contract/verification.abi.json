@@ -1,0 +1,43 @@
+{
+	"ABI version": 2,
+	"header": ["pubkey", "time"],
+	"functions": [
+		{
+			"name": "verify",
+			"inputs": [
+				{"name":"proof","type":"bytes"},
+				{"name":"pi","type":"bytes"}
+			],
+			"outputs": [
+				{"name":"value0","type":"bool"}
+			]
+		},
+		{
+			"name": "setVerificationKey",
+			"inputs": [
+				{"name":"vkey","type":"bytes"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "m_vkey",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"m_vkey","type":"bytes"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	]
+}
